@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-153A60A94C494322BE353BA0D662D36E_0000</CrashGUID>
+		<ProcessId>3804</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>122</SecondsSinceStart>
+		<GameName>UE4-Dota2Reborn</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Dirty</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.14.0-3195953+++UE4+Release-4.14</EngineVersion>
+		<CommandLine>&quot;F:\UE4\Project\Dota2Reborn\Dota2Reborn.uproject&quot;</CommandLine>
+		<LanguageLCID>1033</LanguageLCID>
+		<AppDefaultLocale>en_AS</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.14-CL-3195953</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>xfw</UserName>
+		<BaseDir>C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files (x86)/Epic Games/4.14/</RootDir>
+		<MachineId>755A174346D93E28B6C0708B519791F9</MachineId>
+		<EpicAccountId>5b61ffb8693c4d6ea36376029ab06bab</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<ErrorMessage>Assertion failed: (Index &gt;= 0) &amp; (Index &lt; ArrayNum) [File:c:\program files (x86)\epic games\4.14\engine\source\runtime\core\public\Containers/Array.h] [Line: 634] &nl;Array index out of bounds: 2 from an array of size 2&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1080</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>34287083520</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>20570329088</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140734472273920</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1356644352</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1359437824</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>2103394304</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>2106474496</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636161628474890000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

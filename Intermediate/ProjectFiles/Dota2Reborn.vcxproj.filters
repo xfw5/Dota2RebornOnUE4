@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Dota2Reborn.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2B9FE0FD-A61D-476D-92C3-299FB9C6AD80}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Dota2Reborn.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Dota2RebornEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9F046B86-22F1-48C7-BC04-F9F0DDF8D8F6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Dota2Reborn">
+      <UniqueIdentifier>{CEAA139D-9D15-4D6B-B0F3-F2A05A8D352C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Dota2Reborn\Dota2Reborn.Build.cs">
+      <Filter>Source\Dota2Reborn</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Dota2Reborn.cpp">
+      <Filter>Source\Dota2Reborn</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Dota2Reborn.h">
+      <Filter>Source\Dota2Reborn</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Dota2RebornGameModeBase.cpp">
+      <Filter>Source\Dota2Reborn</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Dota2RebornGameModeBase.h">
+      <Filter>Source\Dota2Reborn</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dota2Reborn\Private">
+      <UniqueIdentifier>{089D7F21-B957-46DD-8B82-ABE73F8A470B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\D2Helper.cpp">
+      <Filter>Source\Dota2Reborn\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Dota2Reborn\Private\Actor">
+      <UniqueIdentifier>{714C70B7-CB9F-4130-9B62-C60FD1784B12}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\Actor\D2Creature.cpp">
+      <Filter>Source\Dota2Reborn\Private\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\Actor\D2Creep.cpp">
+      <Filter>Source\Dota2Reborn\Private\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\Actor\D2Hero.cpp">
+      <Filter>Source\Dota2Reborn\Private\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\Actor\D2Neutral.cpp">
+      <Filter>Source\Dota2Reborn\Private\Actor</Filter>
+    </ClCompile>
+    <Filter Include="Source\Dota2Reborn\Private\AI">
+      <UniqueIdentifier>{8C354264-695D-4CE6-8F7D-797FE63ABFEA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\AI\BTDecorator_IsUnderAttackRange.cpp">
+      <Filter>Source\Dota2Reborn\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\AI\BTService_SearchTargetInSight.cpp">
+      <Filter>Source\Dota2Reborn\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\AI\D2CreepsController.cpp">
+      <Filter>Source\Dota2Reborn\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\AI\D2CreepsDirector.cpp">
+      <Filter>Source\Dota2Reborn\Private\AI</Filter>
+    </ClCompile>
+    <Filter Include="Source\Dota2Reborn\Private\Anims">
+      <UniqueIdentifier>{DC250950-294B-46A6-B8EA-60F212C21924}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\Anims\D2AnimInstance.cpp">
+      <Filter>Source\Dota2Reborn\Private\Anims</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\Anims\D2Attachment.cpp">
+      <Filter>Source\Dota2Reborn\Private\Anims</Filter>
+    </ClCompile>
+    <Filter Include="Source\Dota2Reborn\Private\Building">
+      <UniqueIdentifier>{A27FCD9F-901F-41D4-A4A7-19C001011223}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\Building\D2Barrack.cpp">
+      <Filter>Source\Dota2Reborn\Private\Building</Filter>
+    </ClCompile>
+    <Filter Include="Source\Dota2Reborn\Private\Interfaces">
+      <UniqueIdentifier>{02C8D9EB-BDA4-40C9-A8D5-87482295180B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\Interfaces\D2ActorInterface.cpp">
+      <Filter>Source\Dota2Reborn\Private\Interfaces</Filter>
+    </ClCompile>
+    <Filter Include="Source\Dota2Reborn\Private\Mechanics">
+      <UniqueIdentifier>{772E6A68-796C-4B8D-9C55-5FC96597E8BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dota2Reborn\Private\Mechanics\D2Ability.cpp">
+      <Filter>Source\Dota2Reborn\Private\Mechanics</Filter>
+    </ClCompile>
+    <Filter Include="Source\Dota2Reborn\Public">
+      <UniqueIdentifier>{0CB985D9-17C0-45D4-9305-E8DB2E82257A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\D2Helper.h">
+      <Filter>Source\Dota2Reborn\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\D2Type.h">
+      <Filter>Source\Dota2Reborn\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dota2Reborn\Public\Actor">
+      <UniqueIdentifier>{68FCDD2E-4EAD-4953-B65E-4AA194C07B56}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\Actor\D2Creature.h">
+      <Filter>Source\Dota2Reborn\Public\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\Actor\D2Creep.h">
+      <Filter>Source\Dota2Reborn\Public\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\Actor\D2Hero.h">
+      <Filter>Source\Dota2Reborn\Public\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\Actor\D2Neutral.h">
+      <Filter>Source\Dota2Reborn\Public\Actor</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dota2Reborn\Public\AI">
+      <UniqueIdentifier>{0300BA30-16CB-40E8-AAEC-87592249F7FA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\AI\BTDecorator_IsUnderAttackRange.h">
+      <Filter>Source\Dota2Reborn\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\AI\BTService_SearchTargetInSight.h">
+      <Filter>Source\Dota2Reborn\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\AI\D2CreepsController.h">
+      <Filter>Source\Dota2Reborn\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\AI\D2CreepsDirector.h">
+      <Filter>Source\Dota2Reborn\Public\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dota2Reborn\Public\Anims">
+      <UniqueIdentifier>{ED782F90-C2F6-47D5-86AB-9D8C123714F8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\Anims\D2AnimInstance.h">
+      <Filter>Source\Dota2Reborn\Public\Anims</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\Anims\D2Attachment.h">
+      <Filter>Source\Dota2Reborn\Public\Anims</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dota2Reborn\Public\Building">
+      <UniqueIdentifier>{93AEA530-BD7A-437E-A1FF-2EA80BAE0A3C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\Building\D2Barrack.h">
+      <Filter>Source\Dota2Reborn\Public\Building</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dota2Reborn\Public\Interfaces">
+      <UniqueIdentifier>{FC69FC5F-19A5-48FC-A587-61374149C130}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\Interfaces\D2ActorInterface.h">
+      <Filter>Source\Dota2Reborn\Public\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\Dota2Reborn\Public\Mechanics">
+      <UniqueIdentifier>{37AC4FEC-724C-4634-8530-4F3AE04F313B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Dota2Reborn\Public\Mechanics\D2Ability.h">
+      <Filter>Source\Dota2Reborn\Public\Mechanics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
